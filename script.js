@@ -28,6 +28,8 @@ boton.addEventListener("click",()=>{
     secondSeccion.style.display="block";
 })
 let email = document.querySelector('#email');
+let botonDismiss=document.querySelector('#dismiss')
+
 
 
 email.addEventListener('keyup',()=>{
@@ -39,5 +41,8 @@ console.log(email)
 
 })
 
+botonDismiss.addEventListener("click",()=>{
+  location.reload()
+})
 
 
